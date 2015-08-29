@@ -5,15 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="about.css" />
     <meta name="description"  itemprop="description" content="非エンジニアが外食・コンビニダイエットMealthyの開発にチャレンジするまでのプロセス" />
     <meta name="keywords" itemprop="keywords" content="Github,ダイエット,外食,コンビニ,低カロリー,アプリ" />
-
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </head>
   <body>
-  <header>
+  <header style="background-color:gray">Header</header>
       <nav>
         <ul>
           <li><a href="p1.html">Portfolio1</a></li>
@@ -27,31 +30,29 @@
         <h1>TechAcademyBootCampPortfolio</h1>
     </div>
 　</header>
+　  <section
     <div class="container">
-      <section>
-        <h2>Portfolio</h2>
-<table width="100%" border="0">
-  <tbody>
-    <tr align=center>
-      <td width="50%"><img src="menu.jpg" width="80%" alt="メニュー" /></td>
-      <td width="50%"><img src="Mealthy.png" width="80%" alt="ロゴ" /></td>
-    </tr>
-    <tr align=center>
-      <td width="50%"><h3>ポートフォリオ1</h3></td>
-      <td width="50%"><h3>ポートフォリオ2</h3></td>
-    </tr>
-    <tr align=center>
-      <td width="50%"><img src="app.jpg" width="80%" alt="APP" /></td>
-      <td width="50%"><img src="sp.jpg" width="40%" alt="スマホ" /></td>
-    </tr>
-    <tr align=center>
-      <td width="50%"><h3>ポートフォリオ3</h3></td>
-      <td width="50%"><h3>ポートフォリオ4</h3></td>
-    </tr>
-  </tbody>
-</table>
-     </section>
-      <section>
+      <h2>Portfolio</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4"><img src="menu.jpg" width="80%" alt="メニュー" />message board</div>
+          <div class="col-sm-4"><img src="Mealthy.png" width="80%" alt="ロゴ" />micropost</div>
+          <div class="col-sm-4"><img src="sp.jpg" width="40%" alt="スマホ" />monolist</div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section>
+    <div class="container">
+      <h2>Original Service</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12"><img src="app.jpg" width="80%" alt="APP" />Mealthy Spin-pff</div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section>
         <h2>About</h2>
         <h3>自己紹介</h3>
         <p>鈴木 勝之（起業家）</p>
@@ -63,7 +64,7 @@
           <li><a href="https://www.facebook.com/kysmkzs" target="_blank">Facebook</a></li>
           <li><a href="http://mealthy.me/" target="_blank">Mealthy</a></li>
         </ul>
-      </section>
+    </section>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
