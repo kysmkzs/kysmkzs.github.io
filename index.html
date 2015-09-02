@@ -7,64 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="about.css" />
     <meta name="description"  itemprop="description" content="非エンジニアが外食・コンビニダイエットMealthyの開発にチャレンジするまでのプロセス" />
-    <meta name="keywords" itemprop="keywords" content="Github,ダイエット,外食,コンビニ,低カロリー,アプリ" />
+    <meta name="keywords" itemprop="keywords" content="Github,Ruby On Rails,Mealthy,鈴木勝之,外食,コンビニ,低カロリー,アプリ" />
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="drawer.js"></script>
     <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"> 
   </head>
+  <header></header>
   <body>
-  <header style="background-color:gray">Header</header>
+
+<div id="menu-box">
+  <div id="toggle"><a href="#">Portfolio</a></div>
+  <ul id="menu" class="">
+    <li><a href="#">Message board</a></li>
+    <li><a href="#">Twitter clone</a></li>
+    <li><a href="#">Amazon API</a></li>
+    <li><a href="#">Mealthy Spin-off</a></li>
+  </ul>
+</div>
+
+<!-- 
+  <div id="content1">
       <nav>
-        <ul>
-          <li><a href="p1.html">Portfolio1</a></li>
-          <li><a href="p2.html">Portfolio2</a></li>
-          <li><a href="p3.html">Portfolio3</a></li>
-          <li><a href="p4.html">Portfolio4</a></li>
-        </ul>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-3 bg-info"><a href="p1.html">Message board</a></div>
+            <div class="col-sm-3 bg-info"><a href="p2.html">Twitter clone</a></div>
+            <div class="col-sm-3 bg-info"><a href="p3.html">Amazon API</a></div>
+            <div class="col-sm-3 bg-info"><a href="p4.html">Mealthy Spin-off</a></div>
+          </div>
+        </div>
 　    </nav>
-    <div id="logo">
+　</div>
+-->
+  <div id="content0"></div>
+  <div id="logo">
+        <h1>Tech Academy Bootcamp</h1>
         <img src="ms.jpg" alt="鈴木勝之" />
-        <h1>TechAcademyBootCampPortfolio</h1>
-    </div>
-　</header>
-　  <section
-    <div class="container">
+  </div>
+  <div id="content2">
       <h2>Portfolio</h2>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-4"><img src="menu.jpg" width="80%" alt="メニュー" />message board</div>
-          <div class="col-sm-4"><img src="Mealthy.png" width="80%" alt="ロゴ" />micropost</div>
-          <div class="col-sm-4"><img src="sp.jpg" width="40%" alt="スマホ" />monolist</div>
+          <div class="col-sm-4"><img src="message.jpg" width="100%" alt="message board" />
+            <p>message board</p></div>
+          <div class="col-sm-4"><img src="twitter.png" width="100%" alt="twitter clone" />
+            <p>micropost</p></div>
+          <div class="col-sm-4"><img src="amazon.jpg" width="100%" alt="モノリスト" />
+            <p>monolist</p></div>
         </div>
       </div>
-    </div>
-    </section>
-    <section>
-    <div class="container">
+  </div>
+  <div id="content3">
       <h2>Original Service</h2>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-12"><img src="app.jpg" width="80%" alt="APP" />Mealthy Spin-pff</div>
+          <div class="col-sm-12"><img src="app.jpg" width="100%" alt="APP" />
+          <p>Mealthy Spin-off</p></div>
         </div>
       </div>
-    </div>
-    </section>
-    <section>
-        <h2>About</h2>
-        <h3>自己紹介</h3>
-        <p>鈴木 勝之（起業家）</p>
-        <p>食事による健康管理サービス<a href="https://itunes.apple.com/jp/app/wai-shi-konbinidedaietto!/id945615907?mt=8" target="_blank">Mealthy</a>を開発中。</p>
-        <p>Mealthyの開発に関わりたい方は、<a href="mailto:masa@mealthy.me">こちら</a>よりご連絡お願い致します。</p>
-        <h3>リンク</h3>
-        <ul>
-        　<li><a href="https://github.com/kysmkzs" target="_blank">Github</a></li>
-          <li><a href="https://www.facebook.com/kysmkzs" target="_blank">Facebook</a></li>
-          <li><a href="http://mealthy.me/" target="_blank">Mealthy</a></li>
-        </ul>
-    </section>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </div>
+  <div id="content4">
+    <h2>About</h2>
+    <p>鈴木 勝之（起業家）</p>
+    <p>食事による健康管理サービス<a href="https://itunes.apple.com/jp/app/wai-shi-konbinidedaietto!/id945615907?mt=8" target="_blank">Mealthy</a>を開発中。</p>
+    <p>Mealthyの開発に関わりたい方は、<a href="mailto:masa@mealthy.me">こちら</a>よりご連絡お願い致します。</p>
+    <ul>
+      <a href="https://github.com/kysmkzs" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://www.facebook.com/kysmkzs" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+      <a href="https://itunes.apple.com/jp/app/wai-shi-konbinidedaietto!/id945615907?mt=8" target="_blank"><i class="fa fa-apple fa-2x"></i></a>
+    </ul>
+  </div>
   </body>
 </html>
